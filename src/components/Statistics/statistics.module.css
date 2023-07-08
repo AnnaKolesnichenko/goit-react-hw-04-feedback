@@ -1,0 +1,60 @@
+.statistics {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statistics_title {
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+.rank {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+
+.rank_good {
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+/* .rank_neutral {
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+.rank_bad {
+    text-align: left;
+    font-family: 'Montserrat';
+} */
+
+.total::before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 210px;
+    background-color: blue;
+    margin-bottom: 15px;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.percent {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
